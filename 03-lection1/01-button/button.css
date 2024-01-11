@@ -1,6 +1,6 @@
 /* Стилизация кнопки */
 
-.button__text-main {
+.button {
     color: var(--white);
     font-family: Roboto;
     font-weight: 500;
@@ -8,67 +8,44 @@
     line-height: 18.75px;
     margin: 0;
     padding: 18px 22px;
-}
 
-.button__text-alternate {
-    color: var(--grey-4);
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 18.75px;
-    margin: 0;
-    padding: 18px 22px;
-}
-
-.button_primary {
-    background: var(--blue);
     border-radius: 8px;
     border: 0;
     outline: none;
 
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button:nth-child(n + 5) {
+    color: var(--grey-4)
+}
+
+.button:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.button_primary {
+    background: var(--blue);
 }
 
 .button_primary:hover {
     background: #2342C0;
 }
 
-.button_primary:disabled {
-    opacity: 0.5;
-    pointer-events: none;
-}
-
 .button_secondary {
     background: var(--purple);
-    border-radius: 8px;
-    border: 0;
-    outline: none;
-
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 .button_secondary:hover {
     background: #5028C6;
 }
 
-.button_secondary:disabled {
-    opacity: 0.5;
-    pointer-events: none;
-}
-
 .button_alternate {
     background: var(--white);
     border: 1px solid var(--grey-3);
-    border-radius: 8px;
-
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 .button_alternate:hover {
     border: 1px solid black;
-}
-
-.button_alternate:disabled {
-    opacity: 0.3;
-    pointer-events: none;
 }
