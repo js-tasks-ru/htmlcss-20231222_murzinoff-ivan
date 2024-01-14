@@ -6,18 +6,13 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 18.75px;
-    margin: 0;
-    padding: 18px 22px;
+    padding: 14.6px 66.5px;
 
     border-radius: 8px;
     border: 0;
     outline: none;
 
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-}
-
-.button:nth-child(n + 5) {
-    color: var(--grey-4)
 }
 
 .button:disabled {
@@ -43,6 +38,7 @@
 
 .button_alternate {
     background: var(--white);
+    color: var(--grey-4);
     border: 1px solid var(--grey-3);
 }
 
