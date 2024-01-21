@@ -1,0 +1,16 @@
+.preview {
+    background-color: var(--grey-1);
+    padding-bottom: 204px;
+    padding-top: 68px;
+
+    border-top: 1px solid var(--grey-2);
+}
+
+.preview__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* Убрать padding-bottom, когда будем делать кнопку "LOAD MORE" */
+ 
