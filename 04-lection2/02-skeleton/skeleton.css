@@ -18,6 +18,7 @@
 .skeleton__top {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     gap: 8px;
 }
 
@@ -28,15 +29,15 @@
 }
 
 .skeleton__element_small {
-    width: 172px;
+    width: 15%;
 }
 
 .skeleton__element_medium {
-    width: 257px;
+    width: 21%;
 }
 
 .skeleton__element_large {
-    width: 515px;
+    width: 41%;
 }
 
 .skeleton__bottom {
