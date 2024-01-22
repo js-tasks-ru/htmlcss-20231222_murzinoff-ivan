@@ -29,15 +29,15 @@
 }
 
 .skeleton__element_small {
-    width: 15%;
+    width: 30%;
 }
 
 .skeleton__element_medium {
-    width: 21%;
+    width: 44%;
 }
 
 .skeleton__element_large {
-    width: 41%;
+    width: 89%;
 }
 
 .skeleton__bottom {
