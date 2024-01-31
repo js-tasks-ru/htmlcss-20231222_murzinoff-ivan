@@ -1,8 +1,6 @@
 .tooltip {
     display: inline-block;
     position: relative;
-    left: 200px;
-    top: 200px;
   }
   
   .tooltip__trigger:hover + .tooltip__bubble {
@@ -29,7 +27,7 @@
     position: absolute;
     bottom: calc(100% + 12px);
     left: 50%;
-    transform: translateX(-46%);
+    transform: translateX(-50%);
   }
   
   .tooltip__bubble:before {
@@ -38,6 +36,7 @@
     border-bottom-color: var(--blue);
     position: absolute;
     top: 100%;
-    left: 40%;
-    transform: rotate(180deg);
+    left: 50%;
+    transform: translateX(-50%);
+    /* transform: rotate(180deg); */
   }
