@@ -8,15 +8,7 @@
 
     border: 1px solid var(--grey-3);
     border-radius: 8px;
-}
 
-.histogram__text {
-    display: flex;
-    justify-content: space-between;
-    max-width: 306px;
-}
-
-.histogram__element {
     font-family: Inter;
     color: var(--Black);
     font-size: 16px;
@@ -25,6 +17,17 @@
     line-height: 24px;
 }
 
+.histogram__text {
+    display: flex;
+    justify-content: space-between;
+    max-width: 306px;
+}
+
+.histogram__number {
+    font-size: 20px;
+    line-height: 26px;
+    padding-bottom: 39px;
+}
 
 .histogram__opacity-text {
     opacity: 0.8;
@@ -33,12 +36,6 @@
 .histogram__auxillary-text {
     color: var(--blue);
     text-decoration: none;
-}
-
-.histogram__number {
-    font-size: 20px;
-    line-height: 26px;
-    padding-bottom: 39px;
 }
 
 .histogram__chart {
@@ -50,22 +47,21 @@
 
 .histogram__chart-element {
     background-color: var(--blue);
-    height: 22px;
     flex-grow: 1;
 }
 
 .chart__element_full-height{
-    height: 50px;
+    height: 100%;
 }
 
 .chart__element_medium-height {
-    height: 35px;
+    height: 50%;
 }
 
 .chart__element_small-height {
-    height: 15px;
+    height: 25%;
 }
 
 .chart__element_x-small-height {
-    height: 10px;
+    height: 10%;
 }
